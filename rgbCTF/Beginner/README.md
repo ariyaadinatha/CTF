@@ -29,14 +29,23 @@ Setelah mengubahnya dari base64 didapatkan sekumpulan angka angka, dengan menggu
 >rgbCTF{c0ngr4ts_0n_b3ing_B4SIC}
 
 
-### Joke Check!
-**Challenge**
 
+
+
+
+
+###  Joke Check!
+**Challenge**
 Diberikan sebuah file bernama "punchline.txt" dengan deksripsi
 >What do you call a chicken staring at lettuce?
 
+Setelah dibuka didapatkan text berisi
+>crmNEQ{l_nstnvpy_nlpdlc_dlwlo}
 
 **Solution**
+Dilihat dari sedikitnya text dapat diasumsikan jika ini adalah Caesar Cipher. Kemudian dari text tersebut ditambahkan hingga +15 hingga abjad selanjutnya dan didapatkan flag berupa
+
+>rgbCTF{a_chicken_caesar_salad}
 
 
 
@@ -44,9 +53,23 @@ Diberikan sebuah file bernama "punchline.txt" dengan deksripsi
 ### A Fine Day
 **Challenge**
 
+Diberikan sebuah soal dengan deksripsi
+>It's a fine day to break some ciphers!
 
+Sujd jd bgxopksbm ljsu tg tqqjgb xjkubo. Tqqjgb xjkubod tob t qvor vq dhidsjshsjvg xjkubo. Jsd nbp xvgdjdsd vq slv ghribod, t tgm i. Sv bgxopks t cbssbo, rhcsjkcp jsd kctxb jg sub tckutibs (dv t=0, i=1, bsx.) ip t, tgm subg tmm i. Qjgtccp stnb suts rvm 26 tgm xvgwbos js itxn jgsv t xutotxsbo.
+Sub tqqjgb xjkubo jdg's obtccp suts dsovgf. Djgxb js'd rvm 26, subob tob vgcp t qbl uhgmobm mjqqbobgs nbpd, lujxu xtg ib btdjcp iohsb qvoxbm. Tgpltp, ubob'd pvho qctf: ofiXSQ{t_qjgb_tqqjgb_xjkubo}
+
+
+~qpwoeirut#5057 
 
 **Solution**
+Setelah dilihat sekilas ini merupakan cryptography dengan metode letter substitution cipher, yaitu pengubahan abjad dengan abjad yang lain
+>ofiXSQ{t_qjgb_tqqjgb_xjkubo}
+dari sini diketahui bahwa 'ofiXSQ' merupakan 'rgbCTF' berdasarkan informasi ini digunakan tools online yang tersedia di internet dan didapatkan flag berupa
+>	rgbCTF{a_fine_affine_ cipher}
+
+
+
 
 
 
