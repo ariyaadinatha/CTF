@@ -27,3 +27,33 @@ Didapatkan gabungan dari huruf besar dan huruf kecil dengan '==' diakhirnya, mak
 Setelah mengubahnya dari base64 didapatkan sekumpulan angka angka, dengan menggunakan search engine google diketahui bahwa ini adalah encoding berjenis Octal. Kemudia setelah didecode didapatkan flag berupa
 
 >rgbCTF{c0ngr4ts_0n_b3ing_B4SIC}
+
+
+### Joke Check!
+**Challenge**
+
+Diberikan sebuah file bernama "punchline.txt" dengan deksripsi
+>What do you call a chicken staring at lettuce?
+
+
+**Solution**
+
+
+
+
+### A Fine Day
+**Challenge**
+
+
+
+**Solution**
+
+
+
+### r/ciphers
+**Challenge**
+
+
+
+**Solution**
+
