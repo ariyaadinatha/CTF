@@ -1,6 +1,6 @@
 # rgbCTF Beginner Write Up
 
-### A Basic Challenge
+## A Basic Challenge
 **Challenge**
 
 Diberikan sebuah file bernama "basic_chall.txt" yang berisi deretan angka antara 0 dan 1
@@ -34,7 +34,7 @@ Setelah mengubahnya dari base64 didapatkan sekumpulan angka angka, dengan menggu
 
 
 
-###  Joke Check!
+##  Joke Check!
 **Challenge**
 Diberikan sebuah file bernama "punchline.txt" dengan deksripsi
 >What do you call a chicken staring at lettuce?
@@ -50,7 +50,7 @@ Dilihat dari sedikitnya text dapat diasumsikan jika ini adalah Caesar Cipher. Ke
 
 
 
-### A Fine Day
+## A Fine Day
 **Challenge**
 
 Diberikan sebuah soal dengan deksripsi
@@ -73,10 +73,20 @@ dari sini diketahui bahwa 'ofiXSQ' merupakan 'rgbCTF' berdasarkan informasi ini 
 
 
 
-### r/ciphers
+## r/ciphers
 **Challenge**
-
+Diberikan sebuah file dengan nama "11.txt" dengan isi file
+>Nfwp wp z hkakzudfzoinwj plopnwnlnwka jwdfix, yfwjf jza oi znnzjgit ywnf mxicliajs zazuspwp. Zunfklqf nfwp znnzjg jza oi tkai os fzat, wn'p lplzuus hljf izpwix nk lpi z dxkqxzh nk tk wn mkx skl. Nyk qkkt yiopwnip nfzn ywuu tijxsdn plopnwnlnwka jwdfixp mkx skl zxi zn qlozuuz.ti/plopnwnlnwka-pkuvix zat clwdcwld.jkh. Wm skl fzvia'n nxwit nfih oimkxi, skl pfklut jfijg nfih kln. Fixi'p sklx muzq: xqoJNM{blpn_4pg_nf3_wan3xa3n_n0_t3jxsdn_wn}
+Zupk, Zuij oiuwivip wn'p vixs whdkxnzan nfzn skl pii nfwp: fnndp://w.xitt.wn/1d7y8g0272851.bdq
 
 
 **Solution**
+lagi lagi sebuah kalimat dengan huruf yang diacak. Jika dilihat terdapat sebuah kata yang berpotensi besar menjadi flag
+>xqoJNM{blpn_4pg_nf3_wan3xa3n_n0_t3jxsdn_wn}
+Darisini diketahui bahwa 'xqoJNM' merupakan rgbCTF
 
+Dilakukan kembali substitution cipher dengan menggunakan tools online dan didapatkan
+>	This is a monoalphabetic substitution cipher, which can be attacked with frequency analysis. Although this attack can be done by hand, it's usually much easier to use a program to do it for you. Two good websites that will decrypt substitution ciphers for you are at guballa.de/substitution-solver and quipqiup.com. If you haven't tried them before, you should check them out. Here's your flag: rgbCTF{just_4sk_th3_int3rn3t_t0_d3crypt_it} Also, Alec believes it's very important that you see this: https://i.redd.it/1p7w8k0272851.jpg
+
+maka flagnya adalah
+>rgbCTF{just_4sk_th3_int3rn3t_t0_d3crypt_it} 
